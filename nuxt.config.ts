@@ -10,13 +10,13 @@ export default defineNuxtConfig({
   ],
   css: ['@unocss/reset/tailwind.css'],
   srcDir: 'src',
-  vite: {
-    resolve: {
-      alias: {
-        "~": path.resolve(__dirname, "./src"),
-      },
-    },
-  },
+  // vite: {
+  //   resolve: {
+  //     alias: {
+  //       "~": path.resolve(__dirname, "./src"),
+  //     },
+  //   },
+  // },
   shadcn: {
     /**
      * Prefix for all the imported component
