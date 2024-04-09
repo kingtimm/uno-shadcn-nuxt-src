@@ -8,8 +8,11 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     'shadcn-nuxt'
   ],
-  css: ['@unocss/reset/tailwind.css'],
-  srcDir: 'src',
+  css: [
+    '@unocss/reset/tailwind.css',
+    'virtual:uno.css',
+  ],
+  srcDir: 'src/',
   // vite: {
   //   resolve: {
   //     alias: {

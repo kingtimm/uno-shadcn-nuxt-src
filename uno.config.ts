@@ -15,10 +15,10 @@ export default defineConfig({
   content: {
     pipeline: {
       include: [
+        // include js/ts files
+        "**/*.{js,ts}",
         // the default
         /\.(vue|svelte|[jt]sx|mdx?|astro|elm|php|phtml|html)($|\?)/,
-        // include js/ts files
-        "./src/**/*.{js,ts}",
       ],
     },
   },
