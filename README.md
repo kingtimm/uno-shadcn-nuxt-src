@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Shadcn Unocss Nuxt Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a starter/POC to build on the awesome project by hyoban - [unocss-preset-shadcn](https://github.com/hyoban/unocss-preset-shadcn)
 
 ## Setup
 

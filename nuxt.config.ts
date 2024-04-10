@@ -1,17 +1,21 @@
-import path from "node:path"
-
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@unocss/nuxt',
-    'shadcn-nuxt'
+    'shadcn-nuxt',
+    '@nuxtjs/color-mode',
+    '@vueuse/nuxt',
+    '@nuxt/eslint',
   ],
   css: [
     '@unocss/reset/tailwind.css',
-    'virtual:uno.css',
   ],
+  eslint: {
+    config: {
+      stylistic: true,
+    },
+  },
   srcDir: 'src/',
   // vite: {
   //   resolve: {
@@ -29,6 +33,9 @@ export default defineNuxtConfig({
      * Directory that the component lives in.
      * @default "./components/ui"
      */
-    componentDir: './src/components/ui'
-  }
+    componentDir: './src/components/ui',
+  },
+  colorMode: {
+    classSuffix: '',
+  },
 })
