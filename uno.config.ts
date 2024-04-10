@@ -1,5 +1,5 @@
 // unocss.config.ts
-import { defineConfig, presetUno } from 'unocss'
+import { defineConfig, presetIcons, presetUno } from 'unocss'
 import presetAnimations from 'unocss-preset-animations'
 import { presetShadcn, builtinColors } from 'unocss-preset-shadcn'
 
@@ -7,6 +7,9 @@ export default defineConfig({
   presets: [
     presetUno(),
     presetAnimations(),
+    presetIcons({
+      scale: 1.3,
+    }),
     presetShadcn(builtinColors.map(c => ({ color: c }))),
   ],
   // By default, `.ts` and `.js` files are NOT extracted.

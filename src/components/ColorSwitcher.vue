@@ -5,6 +5,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 
 const colorMode = useColorMode()
 
+// Code from hyoban to help with the screen flicker
 function disableAnimation(disableTransitionExclude: string[] = []) {
   const css = document.createElement('style')
   css.append(
