@@ -16,7 +16,7 @@ export default defineConfig({
     pipeline: {
       include: [
         // include js/ts files
-        '**/*.{js,ts}',
+        'components/ui/**/*.{js,ts}',
         // the default
         /\.(vue|svelte|[jt]sx|mdx?|astro|elm|php|phtml|html)($|\?)/,
       ],

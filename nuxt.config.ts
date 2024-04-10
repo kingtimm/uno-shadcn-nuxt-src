@@ -10,7 +10,6 @@ export default defineNuxtConfig({
   ],
   css: [
     '@unocss/reset/tailwind.css',
-    'virtual:uno.css',
   ],
   eslint: {
     config: {
