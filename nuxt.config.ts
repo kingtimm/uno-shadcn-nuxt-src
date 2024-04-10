@@ -7,7 +7,8 @@ export default defineNuxtConfig({
   modules: [
     '@unocss/nuxt',
     'shadcn-nuxt',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    '@vueuse/nuxt'
   ],
   css: [
     '@unocss/reset/tailwind.css',

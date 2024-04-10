@@ -11,4 +11,5 @@ const count = ref(0)
   <Button type="button" @click="count++">
     count is {{ count }}
   </Button>
+  <ThemeSwitcher></ThemeSwitcher>
 </template>
