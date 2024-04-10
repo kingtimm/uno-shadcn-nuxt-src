@@ -24,11 +24,13 @@
   "devDependencies": {
     "@iconify-json/radix-icons": "^1.1.14",
     "@iconify/vue": "^4.1.1",
+    "@nuxt/eslint": "^0.3.5",
     "@nuxtjs/color-mode": "^3.3.3",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "@unocss/nuxt": "^0.59.0",
     "@vueuse/core": "^10.9.0",
     "@vueuse/nuxt": "^10.9.0",
+    "eslint": "^9.0.0",
     "shadcn-nuxt": "^0.10.2",
     "typescript": "^5.4.4",
     "unocss-preset-animations": "^1.0.2",
