@@ -6,6 +6,8 @@ const count = ref(0)
 </script>
 
 <template>
+  <ColorSwitcher>
+  </ColorSwitcher>
   <Button type="button" @click="count++">
     count is {{ count }}
   </Button>

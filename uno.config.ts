@@ -7,7 +7,8 @@ export default defineConfig({
   presets: [
     presetUno(),
     presetAnimations(),
-    presetShadcn(),
+    presetShadcn({
+    }),
   ],
   // By default, `.ts` and `.js` files are NOT extracted.
   // If you want to extract them, use the following configuration.

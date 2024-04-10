@@ -6,7 +6,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@unocss/nuxt',
-    'shadcn-nuxt'
+    'shadcn-nuxt',
+    '@nuxtjs/color-mode'
   ],
   css: [
     '@unocss/reset/tailwind.css',
@@ -30,5 +31,8 @@ export default defineNuxtConfig({
      * @default "./components/ui"
      */
     componentDir: './src/components/ui'
+  },
+  colorMode: {
+    classSuffix: ''
   }
 })
